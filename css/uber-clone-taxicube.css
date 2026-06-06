@@ -2314,7 +2314,7 @@ ul.page-listview-area li a:hover {
     font-size: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 15px;
     margin-top: 12px
 }
 
@@ -2382,40 +2382,7 @@ ul.entry-meta.list-inline a:hover {
     gap: 10px;
 }
 
-.data-hode-show-faq ul._TABROW_ li {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #000;
-    text-align: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.10);
-}
 
-.data-hode-show-faq ul._TABROW_ li.active {
-    background-color: var(--black);
-    color: var(--white);
-    position: relative
-}
-
-.data-hode-show-faq ul._TABROW_ li.active:after {
-    content: '';
-    position: absolute;
-    bottom: -9px;
-    left: 50%;
-    margin-left: -9px;
-    border-top: 9px solid #000;
-    border-left: 9px solid #fff0;
-    border-right: 9px solid #fff0
-}
 
 .faq-accordian {
     display: none;
@@ -2443,7 +2410,11 @@ ul.entry-meta.list-inline a:hover {
     font-size: 16px;
     text-decoration: none;
     margin: 0;
-    border-bottom: 1px solid #DDD
+    border-bottom: 1px solid #DDD;
+    background-color: #f8f8f8;
+}
+.column-span-2{
+    grid-column: span 2;
 }
 
 .faq-accordian ul li p {
@@ -2643,6 +2614,17 @@ strong.sub__title {
     left: -20px;
     top: 7px
 }
+
+.blog-section{
+    background-color: #f8f8f8;
+    padding: 45px 0;
+}
+.blog_sec_inner {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 
 /* ---------------------------------------------- */
 .client-memories {
@@ -3248,6 +3230,54 @@ strong.sub__title {
 }
 
 /* ---------------------------------------------- */
+.faq-section{
+    padding: 50px 0;
+}
+.faq-section-inner{
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.faq-section ul._TABROW_{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.faq-section ul._TABROW_ li {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.10);
+}
+
+.faq-section ul._TABROW_ li.active {
+    background-color: var(--black);
+    color: var(--white);
+    position: relative
+}
+
+.faq-section ul._TABROW_ li.active:after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -9px;
+    border-top: 9px solid #000;
+    border-left: 9px solid #fff0;
+    border-right: 9px solid #fff0
+}
+/* ---------------------------------------------- */
 @media screen and (max-width:1279px) {
 
     .banner h1,
@@ -3682,6 +3712,14 @@ strong.sub__title {
     .overview-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    .faq-section ul._TABROW_ {
+        max-width: 100%;
+        overflow-x: auto;
+        padding-bottom: 5px;
+    }
+    .faq-section ul._TABROW_ li {
+        white-space: nowrap;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -3884,7 +3922,7 @@ strong.sub__title {
         grid-template-columns: 1fr 1fr;
     }
 
-    .data-hode-show-faq ul._TABROW_ li.active:after {
+    .faq-section ul._TABROW_ li.active:after {
         display: none;
     }
 
@@ -3892,8 +3930,10 @@ strong.sub__title {
     .faq-accordian ul {
         grid-template-columns: 100%;
     }
-
-    .data-hode-show-faq ul._TABROW_ li {
+.column-span-2 {
+    grid-column: auto;
+}
+    .faq-section ul._TABROW_ li {
         font-size: 16px;
     }
 
