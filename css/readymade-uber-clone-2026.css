@@ -142,7 +142,7 @@
 }
 
 .mainWrapper>* {
-    padding: 40px 0;
+    padding: 45px 0;
 }
 
 a {
@@ -1790,7 +1790,7 @@ button:hover .button-text {
 /**************************************/
 .about-section {
     position: relative;
-    padding: 30px 0 20px;
+    padding-bottom: 20px;
 }
 
 .about-inner {
@@ -3123,10 +3123,6 @@ ul.statistics-list li i {
 
 /**************************************/
 
-.client-photos {
-    padding: 40px 0;
-}
-
 .client-photos .common-button {
     margin: 0 0 0 0
 }
@@ -3657,7 +3653,6 @@ ul.reviews-list li.morereview a:after {
 
 /*******************************************/
 .comparison {
-    padding: 40px 0;
     background-color: #f8f8f8;
 }
 
@@ -3680,7 +3675,7 @@ ul.reviews-list li.morereview a:after {
 }
 
 .head-row .cell {
-    padding: 8px 10px;
+    padding: 12px 10px;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -3688,7 +3683,7 @@ ul.reviews-list li.morereview a:after {
 }
 
 .cell {
-    padding: 8px 10px;
+    padding: 12px 10px;
     font-size: 15px;
     border-bottom: 1px solid #E7E3D8;
     display: flex;
@@ -4129,7 +4124,6 @@ ul.reviews-list li.morereview a:after {
 
 /* ---------------------------------------------- */
 .demo-section {
-    padding: 40px 0;
     background: #090c14;
     position: relative;
     color: #eef1f7;
@@ -4718,7 +4712,7 @@ ul.reviews-list li.morereview a:after {
 
 .globe-section {
     background: #f8f8f8;
-    padding: 40px 15px;
+    padding: 45px 15px;
     overflow: hidden;
 }
 
@@ -4855,7 +4849,7 @@ ul.reviews-list li.morereview a:after {
     overflow: hidden;
     background: radial-gradient(900px 500px at 85% 15%, rgba(0, 217, 192, 0.16), transparent 60%), radial-gradient(700px 500px at 10% 100%, rgba(255, 201, 60, 0.10), transparent 55%), linear-gradient(180deg, #12151C, #1B1F29);
     color: #F5F6F3;
-    padding: 35px 15px 30px 15px;
+    padding: 40px 15px 35px 15px;
     display: flex;
     align-items: center;
     max-width: 100%;
@@ -6250,6 +6244,17 @@ ul.reviews-list li.morereview a:after {
     }
     .process-cnt ul li:hover:before{
         display: none;
+    }
+    .wa-widget {
+        bottom: 100px;
+    }
+    .wa-btn {
+        height: 48px;
+        padding: 0 20px 0 10px;
+    }
+    .scroll-top-btn {
+        right: 20px;
+        bottom: 20px;
     }
 }
 
