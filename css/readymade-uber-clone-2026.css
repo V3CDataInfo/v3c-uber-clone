@@ -691,6 +691,7 @@ p.desc b {
 
 .btn-primary:hover {
     color: #fff;
+    background-color: var(--primary-dark);
 }
 
 .btn-outline {
@@ -3464,7 +3465,7 @@ ul.reviews-list li.morereview a {
 }
 
 ul.reviews-list li.morereview a:hover {
-    background-color: #000;
+    background-color: var(--primary-dark);
 }
 
 ul.reviews-list li.morereview a:before {
@@ -4193,11 +4194,6 @@ ul.reviews-list li.morereview a:after {
 
 .icon-tile::before {
     color: #fff;
-}
-
-.icon-tile svg {
-    width: 25px;
-    height: 25px;
 }
 
 
@@ -6255,6 +6251,9 @@ ul.reviews-list li.morereview a:after {
     .scroll-top-btn {
         right: 20px;
         bottom: 20px;
+    }
+    .features li {
+        font-size: 15px;
     }
 }
 
