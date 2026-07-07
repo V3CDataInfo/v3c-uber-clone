@@ -879,6 +879,40 @@ p.desc b {
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
+.countryPhoneSelectWrapper{
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    margin-bottom: 13px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    align-items: center;
+    color: #363636;
+}
+.country_phone_num {
+    padding: 10px 12px;
+    border-right: 1px solid var(--line);
+    background: transparent;
+}
+.country_phone_code_hide{
+    display: none;
+}
+.countryPhoneSelectWrapper input{
+    margin: 0;
+    padding: 10px 12px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: 0;
+    background: transparent;
+}
 
 .form-container .download-icon {
     margin-right: 8px;
