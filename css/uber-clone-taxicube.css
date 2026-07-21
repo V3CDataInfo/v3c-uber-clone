@@ -286,7 +286,7 @@ img {
     display: inline-block;
     background-color: var(--primary);
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     position: relative;
     z-index: 0;
@@ -294,7 +294,8 @@ img {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    -o-border-radius: 3px
+    -o-border-radius: 3px;
+    font-size: 14px;
 }
 .taxi-header .taxi-header-right>ul>li:last-child a::before {
     background: #000;
@@ -1677,6 +1678,13 @@ ul.page-listview-area li a:hover {
     width: -ms-calc(39.3% - 10px);
     width: -moz-calc(39.3% - 10px);
     width: -webkit-calc(39.3% - 10px)
+}
+.masonry-block_.col-2 {
+    width: calc(21.32% - 10px);
+    width: -o-calc(21.32% - 10px);
+    width: -ms-calc(21.32% - 10px);
+    width: -moz-calc(21.32% - 10px);
+    width: -webkit-calc(21.32% - 10px);
 }
 .masonry-block_.col-6 {
     width: calc(52.4% - 10px);
