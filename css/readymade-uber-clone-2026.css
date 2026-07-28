@@ -608,6 +608,7 @@ section.main-banner {
     font-size: 15px;
     color: #333;
     line-height: 1.5;
+    text-align: left;
 }
 
 .proof-text strong {
@@ -626,6 +627,7 @@ p.desc b {
     color: var(--ink);
     font-weight: 600;
 }
+
 .cta-row a {
     background-color: var(--theme);
     font-size: 18px;
@@ -645,6 +647,7 @@ p.desc b {
     z-index: 0;
     overflow: hidden;
 }
+
 .cta-row a:after {
     content: '';
     width: 0;
@@ -659,30 +662,36 @@ p.desc b {
     animation: buttonanim 2s infinite;
     -webkit-animation: buttonanim 2s infinite;
 }
+
 @keyframes buttonanim {
     0% {
         width: 0%;
     }
+
     100% {
         width: 100%;
     }
 }
+
 .main-banner .cta-row a.btn-color2 {
     background-color: #0fb158;
 }
 
-.main-banner .cta-row a.btn-color2::after{
-background-color: #0a8d45;
+.main-banner .cta-row a.btn-color2::after {
+    background-color: #0a8d45;
 }
+
 .main-banner .cta-row a.btn-color2 svg {
     fill: #fff;
 }
+
 .cta-row a small {
     font-size: 14px;
     display: block;
     margin-top: -3px;
     font-weight: 500;
 }
+
 /* feature list - clean, no boxes */
 .features {
     list-style: none;
@@ -935,7 +944,8 @@ background-color: #0a8d45;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
-.countryPhoneSelectWrapper{
+
+.countryPhoneSelectWrapper {
     border-radius: 6px;
     border: 1px solid var(--line);
     margin-bottom: 13px;
@@ -950,15 +960,18 @@ background-color: #0a8d45;
     align-items: center;
     color: #363636;
 }
+
 .country_phone_num {
     padding: 10px 12px;
     border-right: 1px solid var(--line);
     background: transparent;
 }
-.country_phone_code_hide{
+
+.country_phone_code_hide {
     display: none;
 }
-.countryPhoneSelectWrapper input{
+
+.countryPhoneSelectWrapper input {
     margin: 0;
     padding: 10px 12px;
     border-radius: 0;
@@ -2161,6 +2174,7 @@ button:hover .button-text {
 .catrow:nth-child(5) .caticonbox h3::before {
     background-color: #2ea043;
 }
+
 /* ___________________________________________________ */
 /* Specific card colors */
 .card-native-apps .icon-circle {
@@ -3499,9 +3513,10 @@ ul.statistics-list li i {
 }
 
 /**************************************/
-.reviews{
+.reviews {
     background-color: #f8f8f8;
 }
+
 .reviews-inner {
     max-width: 1310px;
     padding: 0 15px;
@@ -3512,11 +3527,13 @@ ul.statistics-list li i {
     position: relative;
     z-index: 1;
 }
-.reviews-list{
+
+.reviews-list {
     display: grid;
     grid-template-columns: 2.8fr 1fr;
     gap: 20px;
 }
+
 .ad_reviews_right {
     list-style: none;
     display: grid;
@@ -3525,24 +3542,28 @@ ul.statistics-list li i {
     justify-content: center;
     width: 100%;
 }
+
 .testimonial-card {
-  background: #fff;
-  border: 1px solid #eceef2;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border: 1px solid #eceef2;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
 }
+
 .testimonial-card .video-thumb img {
     vertical-align: top;
     height: 180px;
     object-fit: cover;
     object-position: top center;
 }
+
 .testimonial-card .video-thumb {
-  position: relative;
-  width: 100%;
-  display: block;
+    position: relative;
+    width: 100%;
+    display: block;
 }
+
 .testimonial-card .video-thumb::after {
     content: '';
     background-image: url(../images/readymade-uber-clone/play-video.svg);
@@ -3561,48 +3582,49 @@ ul.statistics-list li i {
 
 
 .testimonial-card .testimonial-info {
-  padding: 10px;
-  position: relative;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 15px;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
 }
 
 .testimonial-card .quote-badge {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--primary-tint);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-tint);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .testimonial-card .quote-badge svg {
-  width: 25px;
-  height: 25px;
-  fill: var(--primary) !important;
+    width: 25px;
+    height: 25px;
+    fill: var(--primary) !important;
 }
+
 .testimonial-card .client-name {
     font-size: 16px;
     font-weight: 700;
     color: #000;
     line-height: 1em;
     display: block;
-    margin: 0  0 2px;
+    margin: 0 0 2px;
 }
 
 .testimonial-card .client-meta {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 15px;
-  font-weight: 600;
-  margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
 }
 
 .testimonial-card .flag-icon {
@@ -3622,41 +3644,42 @@ ul.statistics-list li i {
     box-shadow: 0 4px 20px rgba(20, 30, 80, 0.06);
     overflow: hidden;
 }
+
 .promo-card .dot-pattern {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-image: radial-gradient(#d7dcef 1.5px, transparent 1.5px);
-  background-size: 10px 10px;
-  opacity: 0.7;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: radial-gradient(#d7dcef 1.5px, transparent 1.5px);
+    background-size: 10px 10px;
+    opacity: 0.7;
 }
 
 .promo-card .dot-pattern--top {
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
 }
 
 .promo-card .dot-pattern--bottom {
-  bottom: 0;
-  right: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .promo-card .stars {
-  text-align: center;
-  color: #f5a623;
-  font-size: 20px;
-  letter-spacing: 4px;
-  margin-bottom: 20px;
-  line-height: 1em;
+    text-align: center;
+    color: #f5a623;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    line-height: 1em;
 }
 
 .promo-card .promo-heading {
-  text-align: center;
-  font-size: 26px;
-  font-weight: 800;
-  line-height: 1.25;
-  color: #10143d;
-  margin: 0 0 16px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #10143d;
+    margin: 0 0 16px;
 }
 
 .promo-card .promo-subtext {
@@ -3665,83 +3688,84 @@ ul.statistics-list li i {
 }
 
 .promo-card .promo-subtext .highlight {
-  color: var(--theme);
-  font-weight: 700;
+    color: var(--theme);
+    font-weight: 700;
 }
 
 .promo-card .promo-divider {
-  border: none;
-  border-top: 1px solid #e6e9f5;
-  margin: 0 0 20px;
+    border: none;
+    border-top: 1px solid #e6e9f5;
+    margin: 0 0 20px;
 }
 
 .promo-card .feature-list {
-  list-style: none;
-  margin: 0px 0 20px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    list-style: none;
+    margin: 0px 0 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .promo-card .feature-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #10143d;
-  text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #10143d;
+    text-transform: capitalize;
 }
 
 .promo-card .icon-circle {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--primary-tint);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-tint);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .promo-card .icon-circle svg {
-  width: 22px;
-  height: 22px;
-  fill: var(--theme) !important;
+    width: 22px;
+    height: 22px;
+    fill: var(--theme) !important;
 }
-.promo-card .icon-circle svg > * {
-  fill: var(--theme) !important;
+
+.promo-card .icon-circle svg>* {
+    fill: var(--theme) !important;
 }
 
 .promo-card .promo-cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  background: var(--theme);
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 12px 0;
-  border-radius: 16px;
-  box-sizing: border-box;
-  transition: background 0.2s ease;
-  position: relative;
-  z-index: 1;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  text-transform: capitalize;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: var(--theme);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 0;
+    border-radius: 16px;
+    box-sizing: border-box;
+    transition: background 0.2s ease;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 .promo-card .promo-cta:hover {
-  background: var(--theme-dark);
-  color: #fff;
+    background: var(--theme-dark);
+    color: #fff;
 }
 
 /******************************************/
@@ -5698,6 +5722,7 @@ ul.statistics-list li i {
     .ai-features .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .reviews-list {
         grid-template-columns: 100%;
     }
@@ -5725,17 +5750,14 @@ ul.statistics-list li i {
         font-size: 40px;
     }
 
-    .main-banner .main-banner-right p {
-        text-align: center;
-    }
-
-    .main-banner .container-inner {
-        flex-direction: column-reverse;
-    }
-
+.main-banner .main-banner-right p {
+    text-align: center;
+    margin-top: 5px;
+    line-height: 18px;
+}
     .main-banner-left {
         width: 100%;
-        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .main-banner-right {
@@ -5948,6 +5970,7 @@ ul.statistics-list li i {
     .node {
         margin-top: 0;
     }
+
     .script-package-row-flow {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -6096,6 +6119,7 @@ ul.statistics-list li i {
 
     .main-banner .main-banner-left h1 {
         font-size: 25px;
+        text-align: center;
     }
 
     .main-banner-left .sub__title {
@@ -6169,24 +6193,89 @@ ul.statistics-list li i {
     .card-grid {
         grid-template-columns: 1fr 1fr;
     }
+
     .testimonial-card .video-thumb img {
-    height: 150px;
-}
+        height: 150px;
+    }
 }
 
 @media screen and (max-width:630px) {
     .mainWrapper>* {
         padding: 40px 0;
     }
+
     .main-banner .badge {
         gap: 5px;
         font-size: 10px;
         padding: 5px 10px;
     }
+
     .main-banner .badge .icon {
         width: 12px;
         height: 12px;
     }
+
+    .main-banner-left {
+        text-align: center;
+        margin: 0;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    .features li {
+        background-color: #FEF0DA;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 14px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        color: #000;
+        border: 1px solid #ffe7c2;
+        gap: 5px;
+}
+.features .check {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    background-color: transparent;
+}
+    .main-banner-right {
+        margin: 20px 0 0 0 ;
+    }
+
+    .trusted-title {
+        display: block;
+        text-align: left;
+        color: #000;
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 1em;
+        text-transform: capitalize;
+    }
+
+    .cta-row a {
+        font-size: 15px;
+        padding: 8px 10px 8px 10px;
+        gap: 5px;
+    }
+
+    .proof {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footnote {
+        text-align: left;
+    }
+
     .globe-section {
         padding: 40px 15px;
     }
@@ -6202,7 +6291,8 @@ ul.statistics-list li i {
     .usp-section {
         padding: 0;
     }
-    .about-section{
+
+    .about-section {
         padding-bottom: 20px;
     }
 
@@ -6407,6 +6497,7 @@ ul.statistics-list li i {
         grid-column: auto;
         grid-row: auto;
     }
+
     .ai-features .card {
         padding: 10px;
     }
@@ -6443,57 +6534,108 @@ ul.statistics-list li i {
     .ad_cta_banner .stats {
         gap: 15px;
     }
+
     .process-cnt ul {
         grid-template-columns: 1fr 1fr;
     }
-    .process-cnt ul li:hover:before{
+
+    .process-cnt ul li:hover:before {
         display: none;
     }
-    .wa-widget {
-        bottom: 100px;
+
+
+    .script-package-row-flow {
+        grid-template-columns: 100%;
     }
-    .wa-btn {
-        height: 48px;
-        padding: 0 20px 0 10px;
+
+    .ad_reviews_right {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
-    .scroll-top-btn {
-        right: 20px;
-        bottom: 20px;
+
+    .testimonial-card .quote-badge {
+        display: none;
     }
-    .features li {
+
+    .testimonial-card .testimonial-info {
+        display: block;
+        text-align: center;
+    }
+
+    .testimonial-card .client-meta {
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    .testimonial-card .client-name {
         font-size: 15px;
     }
-    .script-package-row-flow {
-    grid-template-columns: 100%;
-}
-.ad_reviews_right {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-.testimonial-card .quote-badge{
-    display: none;
-}
-.testimonial-card .testimonial-info {
-    display: block;
-    text-align: center;
-}
-.testimonial-card .client-meta {
-    font-size: 13px;
-    justify-content: center;
-}
-.testimonial-card .client-name {
-    font-size: 15px;
-}
-.testimonial-card .video-thumb::after {
-    right: 5px;
-    top: 5px;
-    width: 35px;
-    height: 35px;
-    background-size: 29px;
-}
-.testimonial-card .video-thumb img {
-    height: auto;
-}
+
+    .testimonial-card .video-thumb::after {
+        right: 5px;
+        top: 5px;
+        width: 35px;
+        height: 35px;
+        background-size: 29px;
+    }
+
+    .testimonial-card .video-thumb img {
+        height: auto;
+    }
+
+    .wa-widget {
+        bottom: 70px;
+    }
+
+    .wa-btn {
+        height: 35px;
+        padding: 0 10px 0 5px;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    .wa-icon-layer {
+        position: relative;
+        width: 25px;
+        height: 25px;
+    }
+
+    .wa-btn-text {
+        font-size: 14px;
+    }
+
+    .scroll-top-btn svg {
+        width: 35px;
+        height: 35px;
+        transform: rotate(-90deg);
+        pointer-events: none;
+    }
+
+    .scroll-top-btn {
+        right: 15px;
+        bottom: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .common-btn {
+        font-size: 16px;
+    }
+
+    .ad_cta_banner .stat b {
+        font-size: 17px;
+    }
+    .cta-row {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    .wa-icon-chat svg {
+        width: 17px;
+        height: 17px;
+    }
+    .cta-row a small {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -6517,5 +6659,11 @@ ul.statistics-list li i {
     .video-icon {
         height: 40px;
         width: 40px;
+    }
+    .trust-item {
+        gap: 2px;
+        padding: 6px 6px;
+        font-size: 11px;
+        font-weight: 500;
     }
 }
