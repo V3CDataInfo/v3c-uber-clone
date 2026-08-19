@@ -1626,6 +1626,7 @@ ul.page-listview-area li a:hover {
     font-weight: 700;
     flex-direction: column;
     padding: 10px;
+    font-size: 28px;
 }
 .masonry-block_ a.view-more p {
     font-size: 14px;
@@ -3284,9 +3285,6 @@ strong.sub__title {
     .testimonial-section-row-flow ul li:last-child .testimonial-single-item {
         font-size: 3vw;
     }
-    .testimonial-section-row-flow ul li:last-child {
-        grid-column: span 1;
-    }
     /************************************/
     .blog-row {
         grid-template-columns: 1fr 1fr;
@@ -3464,7 +3462,7 @@ strong.sub__title {
         grid-template-columns: repeat(4, 1fr);
     }
     .testimonial-section-row-flow ul li:last-child .testimonial-single-item {
-        font-size: 20px;
+        font-size: 18px;
     }
     /*******************************/
     .data-hode-show-faq ul._TABROW_ {
@@ -3526,9 +3524,5 @@ strong.sub__title {
 @media (max-width:375px) {
     .testimonial-section-row-flow ul {
         grid-template-columns: repeat(2, 1fr);
-    }
-    .testimonial-section-row-flow ul li:last-child {
-        grid-column: span 2;
-        height: 90px;
     }
 }
