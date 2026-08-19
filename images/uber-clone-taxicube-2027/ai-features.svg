@@ -1,0 +1,26 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="180" height="180" class="img-fluid">
+          <defs>
+            <radialGradient id="a" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#FCAF3E" stop-opacity=".6"/>
+              <stop offset="100%" stop-color="#FCAF3E" stop-opacity="0"/>
+            </radialGradient>
+            <!-- High-contrast glossy gold/white chip -->
+            <linearGradient id="b" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#FFFFFF"/>
+              <stop offset="100%" stop-color="#FFE0B2"/>
+            </linearGradient>
+          </defs>
+          <circle cx="100" cy="100" r="98" fill="url(#a)"/>
+          <path fill="none" stroke="#FFFAF3" stroke-width="1.6" d="M78 60V38m0 0H62m30 22V26m16 34V26m14 34V38h16M78 140v22H62m30-22v34m16-34v34m14-34v22h16M60 78H38m0 0V62m22 30H26m34 16H26m34 14H38v16m102-60h22V62m-22 30h34m-34 16h34m-34 14h22v16M64 64 48 48V34m88 30 16-16V34M64 136l-16 16v14m88-30 16 16v14" opacity=".9"/>
+          <g fill="#FFFAF3">
+            <circle cx="62" cy="26" r="3"/><circle cx="92" cy="26" r="3"/><circle cx="108" cy="26" r="3"/><circle cx="138" cy="38" r="3"/>
+            <circle cx="62" cy="174" r="3"/><circle cx="92" cy="174" r="3"/><circle cx="108" cy="174" r="3"/><circle cx="138" cy="162" r="3"/>
+            <circle cx="26" cy="62" r="3"/><circle cx="26" cy="92" r="3"/><circle cx="26" cy="108" r="3"/><circle cx="38" cy="138" r="3"/>
+            <circle cx="174" cy="62" r="3"/><circle cx="174" cy="92" r="3"/><circle cx="174" cy="108" r="3"/><circle cx="162" cy="138" r="3"/>
+            <circle cx="48" cy="34" r="3"/><circle cx="152" cy="34" r="3"/><circle cx="48" cy="166" r="3"/><circle cx="152" cy="166" r="3"/>
+          </g>
+          <!-- Main AI Chip in high-contrast white & gold -->
+          <rect width="84" height="84" x="58" y="58" fill="url(#b)" stroke="#FFFFFF" stroke-width="2" rx="14"/>
+          <rect width="64" height="64" x="68" y="68" fill="none" stroke="#DA942C" opacity=".4" rx="8"/>
+          <text x="100" y="112" fill="#A85D1D" font-family="-apple-system, Arial, sans-serif" font-size="30" font-weight="900" text-anchor="middle">AI</text>
+        </svg>
