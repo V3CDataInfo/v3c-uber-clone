@@ -1597,7 +1597,9 @@ ul.page-listview-area li a:hover {
     width: 100%
 }
 .masonry-block_ a.view-more {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     background-color: var(--primary);
     position: relative;
@@ -1611,21 +1613,18 @@ ul.page-listview-area li a:hover {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    height: 100%;
+    min-height: 100% !important;
+    padding: 10px;
 }
 .masonry-block_ a.view-more>span {
-    position: absolute;
     width: 100%;
     height: 100%;
-    left: 0;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
     font-weight: 700;
     flex-direction: column;
-    padding: 10px;
     font-size: 28px;
 }
 .masonry-block_ a.view-more p {
@@ -1651,6 +1650,9 @@ ul.page-listview-area li a:hover {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+}
+.masonry-block_ a.view-more:hover{
+    background: var(--primary-dark);
 }
 .masonry-icon {
     margin-bottom: 10px;
@@ -3311,6 +3313,38 @@ strong.sub__title {
     .faq-section ul._TABROW_ li {
         white-space: nowrap;
     }
+        .masonry-block_.col-5, .masonry-block_.col-2 {
+        width: calc(33.33% - 10px);
+        width: -o-calc(33.33% - 10px);
+        width: -ms-calc(33.33% - 10px);
+        width: -moz-calc(33.33% - 10px);
+        width: -webkit-calc(33.33% - 10px);
+    }
+    .masonry-block_ img {
+        height: 161px;
+        object-fit: cover;
+    }
+    .masonry-block_ a.view-more {
+        min-height: 100% !important;
+    }
+    .masonry-icon>svg {
+    width: 40px;
+}
+.masonry-block_.col-2 b {
+    font-size: 18px;
+    margin: 0 0 2px;
+    display: block;
+}
+.masonry-block_ a.view-more b {
+    font-size: 18px;
+    margin: 0 0 2px;
+    display: block;
+}
+.masonry-block_ a.view-more i {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
 }
 @media screen and (max-width:767px) {
     .banner h1,
@@ -3499,6 +3533,9 @@ strong.sub__title {
         margin-bottom: 20px;
         font-size: 18px;
     }
+    .masonry-block_ img {
+        height: auto;
+}
 }
 @media screen and (max-width:580px) {
     .data-hode-show-faq ul._TABROW_ {
