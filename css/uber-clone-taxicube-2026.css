@@ -919,8 +919,8 @@ img {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    min-height: 35px;
 }
-
 .banner .stat-number {
     font-size: 18px;
     font-weight: 800;
@@ -4581,7 +4581,7 @@ strong.sub__title {
 =====================================================*/
 .support-left {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -4700,7 +4700,7 @@ strong.sub__title {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: -45px -15px -15px 0;
+    margin: 0 -15px -15px 0;
 }
 
 .support-right img {
