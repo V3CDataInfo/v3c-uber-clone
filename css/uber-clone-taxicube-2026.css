@@ -1194,9 +1194,9 @@ ul.page_listview_area li a:hover {
     border: 0 !important;
 }
 
-/* .features ul li p {
-    font-size: 16px;
-} */
+.features ul li p {
+    text-align: left;
+}
 
 .features ul li i {
     height: 60px;
@@ -4598,7 +4598,7 @@ strong.sub__title {
     font-size: 32px;
 }
 
-.support-content h2 {
+.support-content h5 {
     font-size: 22px;
     line-height: 1em;
     color: var(--color-title);
@@ -5787,7 +5787,6 @@ strong.sub__title {
         padding: 40px 0!important;
     }
     .about-section-of,
-    .flow-video-section,
     .panel-section {
         padding: 0;
     }
@@ -5798,6 +5797,9 @@ strong.sub__title {
     .client-reviews.vietnaam-section,
     .ai-features {
         padding: 0 0 40px;
+    }
+    .flow-video-section{
+        padding-top: 40px;
     }
 
     p {
@@ -6233,7 +6235,7 @@ strong.sub__title {
         width: 100%;
     }
 
-    .support-content h2 {
+    .support-content h5 {
         font-size: 18px;
     }
     .quote-circle {
