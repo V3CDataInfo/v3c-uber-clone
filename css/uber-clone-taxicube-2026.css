@@ -1034,7 +1034,7 @@ ul.page_listview_area {
 
 ul.page_listview_area li {
     list-style-type: none;
-    background: url(../images/uber-clone-taxicube-2027/list-arrow.svg) no-repeat 0 0;
+    background: url(../images/uber-clone-taxicube/list-arrow.svg) no-repeat 0 0;
     padding-left: 28px;
     line-height: 20px;
     font-size: 15px;
@@ -1068,7 +1068,7 @@ ul.page_listview_area li a:hover {
 
 .about-uber-clone-row {
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     gap: 4%;
     align-items: center;
 }
@@ -1338,7 +1338,7 @@ ul.page_listview_area li a:hover {
 
 .ai-features ul.page_listview_area li {
     color: #fff;
-    background-image: url(../images/uber-clone-taxicube-2027/list-arrow_white.svg);
+    background-image: url(../images/uber-clone-taxicube/list-arrow_white.svg);
 }
 
 .ai-features-row {
