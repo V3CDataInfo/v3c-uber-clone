@@ -982,6 +982,7 @@ p.desc b {
     -o-border-radius: 0;
     border: 0;
     background: transparent;
+    height: 39px;
 }
 .countryPhoneSelectWrapper input#country_phone_code {
     padding-left: 0;
