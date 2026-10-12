@@ -136,7 +136,7 @@
 }
 
 .mainWrapper {
-    margin: 66px auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 1920px;
     overflow: hidden;
 }
