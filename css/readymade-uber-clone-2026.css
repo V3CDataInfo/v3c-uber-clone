@@ -43,7 +43,85 @@
     margin: 0;
     padding: 0;
 }
-
+abbr,
+ acronym,
+ address,
+ applet,
+ aside,
+ b,
+ big,
+ blockquote,
+ body,
+ caption,
+ center,
+ cite,
+ code,
+ dd,
+ del,
+ dfn,
+ dl,
+ dt,
+ em,
+ fieldset,
+ font,
+ footer,
+ form,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ header,
+ html,
+ i,
+ iframe,
+ img,
+ ins,
+ kbd,
+ label,
+ legend,
+ li,
+ nav,
+ object,
+ ol,
+ p,
+ pre,
+ q,
+ s,
+ samp,
+ section,
+ small,
+ span,
+ strike,
+ strong,
+ sub,
+ sup,
+ table,
+ tbody,
+ td,
+ tfoot,
+ th,
+ thead,
+ tr,
+ tt,
+ u,
+ ul,
+ var {
+     background: 0 0;
+     border: 0;
+     margin: 0;
+     outline: 0;
+     padding: 0;
+     text-decoration: none
+ }
+:focus {
+    outline: 0;
+}
+.enquiry-form-error {
+    background-color: #ffe5e5!important;
+    border-color: #e48e8e!important;
+}
 .mb10 {
     margin-bottom: 10px;
 }
@@ -960,6 +1038,7 @@ p.desc b {
     align-items: center;
     color: #363636;
     padding-left: 12px;
+    height: 43px;
 }
 
 .country_phone_num {
@@ -982,7 +1061,7 @@ p.desc b {
     -o-border-radius: 0;
     border: 0;
     background: transparent;
-    height: 39px;
+    height: 100%;
 }
 .countryPhoneSelectWrapper input#country_phone_code {
     padding-left: 0;
@@ -992,6 +1071,7 @@ p.desc b {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-right: 1px solid var(--line);
+    padding: 0;
 }
 .form-container .download-icon {
     margin-right: 8px;
@@ -4653,15 +4733,10 @@ ul.statistics-list li i {
     margin-bottom: 15px;
 }
 
-.process-icon img {
-    margin: auto;
-    border-radius: 32px;
-    -webkit-border-radius: 32px;
-    -moz-border-radius: 32px;
-    -ms-border-radius: 32px;
-    -o-border-radius: 32px;
+.process-icon img{
+    height: 40px;
+    width: 40px;
 }
-
 .process-cnt ul li:hover .process-icon {
     border-color: var(--primary);
     transition: all 0.5s ease 0s;
@@ -4993,6 +5068,7 @@ ul.statistics-list li i {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     position: relative;
+    min-height: 76px;
 }
 
 .marquee-stack::before,
@@ -6622,8 +6698,8 @@ ul.statistics-list li i {
     }
 
     .scroll-top-btn {
-        right: 15px;
-        bottom: 15px;
+        right: 10px;
+        bottom: 10px;
         width: 35px;
         height: 35px;
     }
@@ -6645,6 +6721,13 @@ ul.statistics-list li i {
     }
     .cta-row a small {
         font-size: 12px;
+    }
+    .pricing-grid .price {
+        font-size: 28px;
+    }
+    .scroll-top-btn .arrow-icon {
+        position: relative;
+        left: -2px;
     }
 }
 
