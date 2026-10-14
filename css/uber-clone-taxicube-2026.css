@@ -3393,32 +3393,9 @@ ul.page_listview_area li a:hover {
 }
 
 /* ---------------------------------------------- */
-.tx-pricing {
-    --navy: #0b1b4d;
-    --muted: #5b6b8c;
-    --text: #2b3a5c;
-    --blue: #1677ff;
-    --blue-l: #e6f1ff;
-    --green: #12a63a;
-    --green-d: #0b8a2c;
-    --green-l: #dcf7e2;
-    --purple: #6b3fd6;
-    --purple-l: #ece8fb;
-    color-scheme: light;
-    box-sizing: border-box;
-    min-height: 100%;
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-    font-family: "Plus Jakarta Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--text);
-    background: #f4f8ff;
-    background-image: radial-gradient(circle at 50% 100%, #e3f5e8 0, transparent 45%), radial-gradient(circle at 0 0, #e8f1ff 0, transparent 40%);
+.tx-pricing{
+    background-color: #f8f8f8;
     padding: 50px 0;
-}
-.tx-pricing *,
-.tx-pricing *::before,
-.tx-pricing *::after {
-    box-sizing: border-box
 }
 .tx-pricing .wrap {
     max-width: 1310px;
@@ -3438,16 +3415,15 @@ ul.page_listview_area li a:hover {
     border-radius: 22px;
     padding: 18px 20px 18px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(30, 70, 150, .08)
+    box-shadow: var(--shadow-md)
 }
 .tx-pricing .card.blue {
     background: linear-gradient(#fbfdff, #f3f8ff)
 }
 .tx-pricing .card.green {
-    border: 2.5px solid var(--green);
-    background: linear-gradient(#f0fbf2, #e6f8ea);
+    border: 1px solid #bae9c6;
+    background: #f0fbf2;
     padding-top: 20px;
-    box-shadow: 0 14px 40px rgba(18, 166, 58, .2)
 }
 .tx-pricing .card.purple {
     border-color: #d9d2f4;
@@ -3477,8 +3453,6 @@ ul.page_listview_area li a:hover {
 }
 .tx-pricing .iconwrap {
     position: relative;
-    width: 170px;
-    height: 92px;
     margin: 0 auto 0;
     display: flex;
     justify-content: center;
@@ -3491,7 +3465,6 @@ ul.page_listview_area li a:hover {
     border-radius: 22px;
     display: grid;
     place-items: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, .15)
 }
 .tx-pricing .icon svg {
     width: 40px;
@@ -3507,17 +3480,14 @@ ul.page_listview_area li a:hover {
     background: linear-gradient(#7d55e6, #5a2fc2)
 }
 .tx-pricing .card-title {
-    margin: 10px 0 8px;
+    margin: 15px 0 5px;
     font-size: 25px;
     line-height: 1em;
-    font-weight: 800;
-    color: var(--navy);
+    font-weight: 700;
+    color: var(--color-title);
 }
 .tx-pricing .sub {
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--muted);
-    font-weight: 500;
+    margin: 0;
     text-align: center;
 }
 .tx-pricing .old {
@@ -3525,7 +3495,7 @@ ul.page_listview_area li a:hover {
     margin-top: 12px;
     font-size: 20px;
     font-weight: 600;
-    color: #6d7790;
+    color: #848484;
     text-decoration: line-through;
     line-height: 1
 }
@@ -3545,22 +3515,20 @@ ul.page_listview_area li a:hover {
     font-size: 15px;
     font-weight: 700
 }
-.tx-pricing .blue .price {
-    margin-top: 20px
-}
+
 .tx-pricing .blue .price b {
-    color: var(--navy)
+    color: #000;
 }
 .tx-pricing .blue .price span {
-    color: #51648c
+    color: #000;
 }
 .tx-pricing .green .price b,
 .tx-pricing .green .price span {
-    color: var(--green-d)
+    color: #12a63a;
 }
 .tx-pricing .purple .price b,
 .tx-pricing .purple .price span {
-    color: var(--purple)
+    color: #6b3fd6;
 }
 .tx-pricing .pill {
     display: inline-block;
@@ -3600,7 +3568,6 @@ ul.page_listview_area li a:hover {
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, .18);
     transition: transform .15s, filter .15s;
 }
 .tx-pricing .btn:hover {
@@ -3627,7 +3594,7 @@ ul.page_listview_area li a:hover {
 .tx-pricing .divider {
     border: 0;
     border-top: 1.5px solid #dbe6f5;
-    margin: 16px 8px 10px;
+    margin: 16px 8px 16px;
 }
 .tx-pricing .green .divider {
     border-color: #cfe9d5
@@ -3637,10 +3604,10 @@ ul.page_listview_area li a:hover {
 }
 .tx-pricing .features {
     list-style: none;
-    margin: 0 0 10px;
+    margin: 0 0 15px;
     text-align: left;
     display: grid;
-    gap: 10px;
+    gap: 14px;
 }
 .tx-pricing .features li {
     display: flex;
@@ -3653,44 +3620,44 @@ ul.page_listview_area li a:hover {
 }
 .tx-pricing .ck {
     flex: none;
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     display: grid;
     place-items: center;
-    color: #fff
+    color: #fff;
 }
 .tx-pricing .ck svg {
-    width: 13px;
-    height: 13px;
+    width: 10px;
+    height: 10px;
     fill: #fff;
 }
 .tx-pricing .blue .ck {
-    background: var(--blue)
+    background: #1677ff;
 }
 .tx-pricing .green .ck {
-    background: var(--green)
+    background: #12a63a;
 }
 .tx-pricing .purple .ck {
-    background: var(--purple)
+    background: #6b3fd6;
 }
 .tx-pricing .foot {
     display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 14px;
-    padding: 14px 18px;
+    padding: 10px 15px;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
 .tx-pricing .foot svg {
     flex: none;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 .tx-pricing .blue .foot {
-    background: var(--blue-l);
+    background: #e6f1ff;
     color: var(--blue)
 }
 .tx-pricing .green .foot {
@@ -3698,7 +3665,7 @@ ul.page_listview_area li a:hover {
     color: var(--green-d)
 }
 .tx-pricing .purple .foot {
-    background: var(--purple-l);
+    background: #ece8fb;
     color: var(--purple)
 }
 /* Shark Badges Row */
