@@ -1009,7 +1009,6 @@ img {
     justify-content: center;
     flex-shrink: 0;
 }
-
 .banner .feature-box-text {
     font-weight: 700;
     font-size: 16px;
@@ -2336,9 +2335,9 @@ ul.page_listview_area li a:hover {
     margin-bottom: 10px;
 }
 
-.core-revenue .core-grid i svg {
-    width: 60px;
-    height: 60px;
+.core-revenue .core-grid i img {
+    width: 40px;
+    height: 40px;
 }
 
 .core-revenue .bg-light-blue {
@@ -3238,7 +3237,10 @@ ul.page_listview_area li a:hover {
     gap: 15px;
     align-items: flex-start;
 }
-
+.option-icon-div img{
+    width: 35px;
+    height: 35px;
+}
 .core-revenue .parcel-and-food-row p {
     font-size: 14px;
     line-height: 20px;
@@ -3610,6 +3612,8 @@ ul.page_listview_area li a:hover {
     border-radius: 22px;
     display: grid;
     place-items: center;
+    font-size: 40px;
+    color: #fff;
 }
 .tx-pricing .icon svg {
     width: 40px;
@@ -3770,6 +3774,12 @@ ul.page_listview_area li a:hover {
     display: grid;
     place-items: center;
     color: #fff;
+    position: relative;
+}
+.tx-pricing .ck::before {
+    content: '✓';
+    line-height: 1;
+    font-size: 12px;
 }
 .tx-pricing .ck svg {
     width: 10px;
@@ -3811,6 +3821,10 @@ ul.page_listview_area li a:hover {
 .tx-pricing .purple .foot {
     background: #ece8fb;
     color: var(--purple)
+}
+.tx-pricing .purple .foot i {
+    font-size: 28px;
+    color: #6b3fd6;
 }
 /* Shark Badges Row */
 .tx-pricing .badges-row {
@@ -4198,6 +4212,7 @@ ul.page_listview_area li a:hover {
 
 .angola-feature:nth-child(3) .angola-feature-icon {
     background: #fef3ea;
+    color: #fd7c0a;
 }
 
 .angola-feature:nth-child(3) .angola-feature-icon svg {
@@ -5263,13 +5278,8 @@ strong.sub__title {
     align-items: center;
     justify-content: center;
     color: var(--primary);
+    font-size: 30px;
 }
-
-.flow-video-section .icon svg {
-    width: 30px;
-    height: 30px;
-}
-
 .flow-video-section .label {
     font-size: 13px;
     font-weight: 600;
@@ -5958,6 +5968,12 @@ strong.sub__title {
     color: #333;
     text-align: justify;
 }
+.value-cell .positive{
+    background: url(../images/uber-clone-taxicube/green_check.svg);
+    background-position: left top;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
 
 .status-wrapper {
     display: flex;
@@ -5991,6 +6007,7 @@ strong.sub__title {
 /* Value Status Accents */
 .status-wrapper.positive .value-text {
     color: #0F172A;
+    padding-left: 30px;
 }
 
 .table-card.is-expanded .collapsible-row {
@@ -6956,10 +6973,7 @@ strong.sub__title {
         height: 60px;
     }
 
-    .core-revenue .core-grid i svg {
-        width: 50px;
-        height: 50px;
-    }
+
 
     .script-package-row-flow {
         grid-template-columns: 100%;
