@@ -235,6 +235,7 @@ p {
     text-align: justify;
     margin: 0 0 12px 0;
     font-weight: 400;
+    font-size: 15px;
 }
 
 p:last-child {
@@ -2975,6 +2976,7 @@ ul.page_listview_area li a:hover {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    font-size: 30px;
 }
 
 .core-revenue .options-icon-box svg {
@@ -3060,7 +3062,13 @@ ul.page_listview_area li a:hover {
     -o-border-radius: 12px;
     position: relative;
 }
-
+.core-revenue .option-badge i{
+    font-size: 26px;
+}
+.core-revenue .option-badge i.icon-b_parcel,
+.core-revenue .option-badge i.icon-b_food{
+    font-size: 35px;
+}
 .core-revenue .option-badge span {
     display: block;
     line-height: 1.1em;
@@ -3822,9 +3830,8 @@ ul.page_listview_area li a:hover {
     background: #ece8fb;
     color: var(--purple)
 }
-.tx-pricing .purple .foot i {
+.foot i {
     font-size: 28px;
-    color: #6b3fd6;
 }
 /* Shark Badges Row */
 .tx-pricing .badges-row {
@@ -5894,7 +5901,9 @@ strong.sub__title {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    color: #fff;
     border-radius: 50%;
+    font-size: 18px;
 }
 
 .crown-icon {
@@ -5967,6 +5976,9 @@ strong.sub__title {
     font-weight: 500;
     color: #333;
     text-align: justify;
+}
+.value-cell i{
+    font-size: 25px;
 }
 .value-cell .positive{
     background: url(../images/uber-clone-taxicube/green_check.svg);
@@ -6128,7 +6140,9 @@ strong.sub__title {
         box-shadow: 0 0 10px 0 rgb(0 0 0 / .1);
         top: 80px
     }
-
+    .taxi-header.fixed{
+        background: #fff;
+    }
     .taxi-header .taxi-header-right>ul>li:last-child {
         min-height: initial;
         line-height: normal
