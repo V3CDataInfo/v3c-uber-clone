@@ -969,7 +969,7 @@ img {
 }
 
 .banner.nobefore {
-    padding: 50px 0 40px;
+    padding: 40px 0 40px;
 }
 
 /* Feature Grid */
@@ -7195,6 +7195,9 @@ strong.sub__title {
     }
     .tx-pricing .card-title {
         font-size: 22px;
+    }
+    .testimonial-left{
+        padding: 0;
     }
 }
 
