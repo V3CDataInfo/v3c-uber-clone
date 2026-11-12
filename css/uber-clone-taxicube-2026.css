@@ -4736,7 +4736,7 @@ strong.sub__title {
     font-weight: 700
 }
 
-.sub-boxess strong {
+.sub-boxess h5 {
     font-size: 16px;
     margin-bottom: 2px;
     position: relative;
@@ -4750,7 +4750,7 @@ strong.sub__title {
     margin-bottom: 10px
 }
 
-.sub-boxess strong:before {
+.sub-boxess h5:before {
     content: '';
     position: absolute;
     width: 6px;
@@ -5486,7 +5486,7 @@ strong.sub__title {
     font-size: 26px;
 }
 
-.support-content h5 {
+.support-content .sp_title {
     font-size: 22px;
     line-height: 1em;
     color: var(--color-title);
@@ -6214,7 +6214,7 @@ strong.sub__title {
     color: #0a7f61;
 }
 
-.project-timeline .ph strong {
+.project-timeline .ph .ph_title {
     display: block;
     font-size: 21px;
     line-height: 1.2;
